@@ -9,17 +9,24 @@
   - coming up with ideas and experimenting with them
   - long-term impact - measures need to be developed
 
-- management strategies
+<!-- - management strategies
   - leading from within
-  - aim for high goal alignment _and_ high team autonomy
+  - aim for high goal alignment _and_ high team autonomy -->
 
-### DevOps
+### Engineering
 
-- single owner, shared responsibility
+<!-- - single owner, shared responsibility
   - one person is "owns" a component to set the vision and oversees the whole component
-  - but the responsibility is shared across the team
+  - but the responsibility is shared across the team -->
 
-- frequent re-planning and infra-building
+- incremental engineering
+  - frequent re-planning
+  - infra-building on-the-fly
+
+- investing time on building
+  - tools that interoperates with existing devops tools
+  - adaptive software
+  - human operator interface
 
 ## Tool-level
 

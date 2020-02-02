@@ -36,7 +36,7 @@
   - the simulators do not serve the purpose they are designed for
     - inaccuracy - the gap between simulation and reality is too big
     - setting up and running experiments in simulation is too cumbersome
-  - real-world testings take too long time
+  - real-world testings take too much time
   - designing the testing cases that cover the specs "just enough" is an art
     - the team often misses the important test cases or not test the important cases thoroughly enough
 
@@ -46,5 +46,5 @@
 - knowledge concentration problem
   - each team member knows the component they own thoroughly but do not know those of others
 - human-factor is overlooked
-  - many human error occurs while running the whole system
+  - many human errors occurs while running the whole system
   - related to the knowledge concentration problem and the testing challenges
