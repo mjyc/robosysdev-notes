@@ -14,4 +14,4 @@ To understand the challenges with working on a large robotics project and brains
 
 1. [collected data](./data.md)
 2. [identified challenges](./challenges.md)
-3.
+3. (WIP) [brainstormed solutions](./solutions.md)
