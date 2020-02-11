@@ -28,6 +28,8 @@
   - adaptive software
   - human operator interface
 
+- clean separation between high-level logic component vs. sensor data processing component
+
 ## Tool-level
 
 - time tracking tool
