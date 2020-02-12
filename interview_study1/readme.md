@@ -1,4 +1,4 @@
-# Brief
+# Study Brief
 
 ## Goal
 
