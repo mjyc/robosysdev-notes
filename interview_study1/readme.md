@@ -6,7 +6,7 @@ To understand the challenges with working on a large robotics project and brains
 
 ## Procedure
 
-1. A structured interview with a multi-year participant - [the prompoting questions](./questions)
+1. A structured interview with a multi-year participant - [the prompoting questions](./questions.md)
 2. Bottom-up data analysis
 3. Solution brainstorming
 
