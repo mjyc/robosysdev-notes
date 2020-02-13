@@ -11,5 +11,4 @@ In this study, the goal is to understand the challenges specific to the software
 
 ## Results
 
-1. [raw notes takten during the interview](./rawdata.md)
-2. [identified challenges](./challenges.md)
+1. [identified challenges](./challenges.md)
