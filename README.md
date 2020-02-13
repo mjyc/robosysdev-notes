@@ -7,3 +7,8 @@ As a first step towards overcoming the difficulties, I'd like to understand what
 
 - [interview study1](./interview_study1)
 - [interview study2](./interview_study2)
+
+## Acknowledgement
+
+I thank all study participants for their time and insights.
+
