@@ -62,89 +62,56 @@ Q: What were the driver-level problems?
   - why did you double (ros-)wrapped certain code?
     - tricky part: ROS has resources, process level access, e.g., working with environmental variables, etc.
 
----
-
-- necessary frequency
+- necessary frequency were dependent on nodes
   - very high requirement
   - task requirement is higher
 
+Q: What were the robot behavior-level problems?
+---
+
 - FSM bugs
-  - mechanical engineers
-  - fail to anticipate failure
+  - small mistakes introduced by a mechanical engineer
+  - "fail to anticipate failure" type
   - mechanical level at this layer
     - how to share resources between states
       - information as dictionary (resources)
-    - arm wrapper =>
-  - thousands the subscribe
+    - arm wrapper were not meant to be "resource"
+  - thousands subscriptions to a topic (due to the FSM expansion) - ROS could not handle that
   - library provide suggestions; we not understand, wrong choices.
 
-- people
-  - launch file
-  - tmux (villa)
-  - don’t write launch file
-  - tmux launcher
 
-- Launch file writing is hard
-  - multi-computer configuration problem
-
+Q: What were the human operator-level problems?
 ---
 
+- chance in people's behavior:
+  1. launch file
+  2. tmux
+  3. don't write launch file
+  4. tmux launcher
 
-- human factor; people level
-  -
+- Launch file writing is hard
+  - the multi-computer configuration problem
 
-- code / interface to developer
-  - we can win with the tool
+- code & interface to developer
+  - we can win with simpler tools
   - effectively on the robocup side
 
-- soccer team had mature tool for
+- soccer team had mature tool for deploying new code
 
 - HSR
   - drag binary over
-    - dynamic linking
-    - library again link against (slightly different API)
-      - shipped Toyota
+    - dynamic linking caused problems
+    - the library had slightly different API between the desktop & the robot computer
+      - the comptuer shipped from Toyota
   - install space
 
 - login & create their user account
-  - easiest way to do with robot - because it has every
+  - easiest way to do with robot - because it has everything setup
 
-
+Q: Anything else?
 ---
 
 Towards modular architecture
 
 - GPU & Cameras getting better and better
-  - Combinatorial optimization problem of designing the
-
-- Hardware space which leads to optimization problem
-
----
-
-Thoughts on solutions
-
-- follow
-
-- use research code judiciously
-
-- make testing easy
-
-- why is setting up gazebo & image => gazebo problem hard?
-  - computer problems
-  - hard to run PCL code AND gazebo code (on my desktop)
-  - need to find images, etc.
-
-- diving up the system
-  - somewhere between RL (opengym, too hard, also there some gap) & human-sim (Chao’s thing easy to build but miss things)
-  - something in-between? using synthesizer to make creating test cases easier?
-
-  - modeling the generative model of detector
-    - simplest thing - remembering
-
-- thought about building ROS<->XXX bridges using synthesizer
-
-- testing closed-loop controller is hard because you need environment
-  - for HRI there is subjective metric, too.
-
-- grasping silverware problem
-  - how can one model it? At abstract level?
+- space for putting hardware devices is limited
