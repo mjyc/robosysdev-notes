@@ -32,3 +32,4 @@ Although the list above is based on a small number of interviews and my personal
 - _While I was writing this post, I learned about this excellent paper ["State of the Practice and Guidelines for ROS-based System"](https://github.com/S2-group/icse-seip-2020-replication-package/blob/master/ICSE_SEIP_2020.pdf) and discussions about the paper in [the ROS Discourse](https://discourse.ros.org/t/guidelines-on-how-to-architect-ros-based-systems/12641). The paper is focused on [ROS](https://www.ros.org/) yet the high-level goals of it seem similar._
 - _The study notes this article is based on are available in [github](https://github.com/mjyc/robosysdev-notes) and [gitlab](https://gitlab.com/mjyc/robosysdev-notes) repos_
 - _Thank you! to all those who participated in my interview studies_
+- _Found another paper related to this post called ["SOFTWAREENGINEERING FORROBOTICSYSTEMS:ASYSTEMATIC MAPPING STUDY"](https://arxiv.org/pdf/2102.12520.pdf)_
